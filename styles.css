@@ -1,1 +1,31 @@
 /* your code */
+body{
+	margin:20px;
+	background-color:0f0f0f0;
+}
+table{
+	width:100%;
+	border-collapse: collapse;
+	margin-top:20px;
+}
+thead{
+	background-color:blue;
+	color: white;
+}
+th{
+	padding:10px;
+	border:1px;
+	text-align: left;
+}
+
+thead tr:nth-child{
+	background-color: #f9f9f9;
+}
+td{
+	padding:10px;
+	border:1px solid #ddd
+}
+h1{
+	color:#333;
+	text-align:center;
+}
